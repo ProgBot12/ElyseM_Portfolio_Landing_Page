@@ -151,6 +151,8 @@ main .text-section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 main .text-section .fashion-text {
@@ -162,10 +164,12 @@ main .text-section .fashion-text {
   color: white;
   font-weight: bolder;
   padding: 10px 40px 10px 40px;
+  margin-left: 3%;
 }
 
 main .text-section .main-text-section {
-  margin-top: 10%;
+  margin-top: 6%;
+  margin-left: 3%;
 }
 
 main .text-section .main-text-section h1 {
@@ -175,14 +179,14 @@ main .text-section .main-text-section h1 {
 
 main .text-section .main-text-section p {
   font-size: 24px;
-  margin-top: 3%;
+  margin-top: 2%;
   width: 60%;
   line-height: 50px;
   color: #C4C4C4;
 }
 
 main .text-section .read-more {
-  margin-top: 5%;
+  margin-top: 3%;
   font-size: 36px;
   font-weight: 800;
   display: -webkit-box;
@@ -195,6 +199,7 @@ main .text-section .read-more {
       -ms-flex-align: baseline;
           align-items: baseline;
   width: 35%;
+  margin-left: 3%;
 }
 
 main .text-section .read-more img {
