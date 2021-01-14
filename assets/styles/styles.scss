@@ -60,3 +60,29 @@ nav{
     }
 
 }
+
+main{
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 5% 1fr 1fr 5%;
+    grid-template-rows: 5% 1fr 10%;
+    gap: 10px;
+
+    .showcase{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: fit-content;
+    
+        .main-image{
+            height: 80%;
+        }
+
+        .controls{
+            display: flex;
+            
+            
+        }
+    }
+}
